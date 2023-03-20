@@ -7,6 +7,19 @@ in_hull <- function(points, hull){
   #Return: 
   #  - output: list(c(x_0,y_0),c(x_1,y_1),...) the points which are in the hull. 
   
+  # checking function
+  check <- function(i, points, hull){
+    #Checks whether the ith point is in the convex hull
+    #Returns: bool
+    
+    for (j in 1:length(hull)){
+      if (points[[i]][1] == hull[[j]][1] & points[[i]][2] == hull[[j]][2]){
+        return(TRUE)
+      }
+    }
+    return(FALSE)
+  }
+  
   # how many points
   n <- length(points)
   
@@ -31,17 +44,4 @@ in_hull <- function(points, hull){
   
   # return
   return(output)
-}
-
-# checking function
-check <- function(i, points, hull){
-  #Checks whether the ith point is in the convex hull
-  #Returns: bool
-
-  for (j in 1:length(hull)){
-    if (points[[i]][1] == hull[[j]][1] & points[[i]][2] == hull[[j]][2]){
-      return(TRUE)
-    }
-  }
-  return(FALSE)
 }
