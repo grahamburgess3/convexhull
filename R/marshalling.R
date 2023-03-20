@@ -1,13 +1,12 @@
 jarvis_march <- function(data){
-  """
-  This function returns the convex hull of the input data - which may be:
-    - a vector (x_0, y_0, x_1, y_1, ...) of x-y values, 
-    - a list (c(x_0,y_0),c(x_1,y_1),...) of x-y values or
-    - a data.frame(x=c(x_0,x_1,...),y=c(y_0,y_1,...)) of x-y values
-  Returns: 
-    - the input data in list form and 
-    - the convex hull in list formm
-  """
+  #This function returns the convex hull of the input data - which may be:
+  #  - a vector (x_0, y_0, x_1, y_1, ...) of x-y values, 
+  #  - a list (c(x_0,y_0),c(x_1,y_1),...) of x-y values or
+  #  - a data.frame(x=c(x_0,x_1,...),y=c(y_0,y_1,...)) of x-y values
+  #Returns: 
+  #  - the input data in list form and 
+  #  - the convex hull in list formm
+
   # error check: empty input
   if(typeof(data)=="NULL"){
     return("Error: no input data")

@@ -1,10 +1,9 @@
 # plot function
 plot_hull <- function(data){
-  """
-  Plots the set of points and the convex hull
-  Input: data: list(input_data, hull)
-  Returns: a ggplot object
-  """
+  #Plots the set of points and the convex hull
+  #Input: data: list(input_data, hull)
+  #Returns: a ggplot object
+  
   # get data
   points <- data$input_data
   hull <- data$hull
