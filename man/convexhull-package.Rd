@@ -3,28 +3,25 @@
 \alias{convexhull}
 \docType{package}
 \title{
-  A short title line describing what the package does
+  Find the convex hull of a set of points
 }
 \description{
-  A more detailed description of what the package does. A length
-  of about one to five lines is recommended.
+  Finds the convex hull of a set of points using an RCpp implementation of the Jarvis March algorithm.
 }
 \details{
-  This section should provide a more detailed overview of how to use the
-  package, including the most important functions.
+  See ReadME.md
 }
 \author{
-Your Name, email optional.
+Graham Burgess
 
-Maintainer: Your Name <your@email.com>
+Maintainer: Graham Burgess
 }
 \references{
-  This optional section can contain literature or other references for
-  background information.
+  None
 }
 \keyword{ package }
 \seealso{
-  Optional links to other man pages
+  
 }
 \examples{
   \dontrun{
