@@ -1,12 +1,11 @@
 Package: convexhull
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Finds the convex hull of a set of points
 Version: 1.0
 Date: 2023-03-20
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one
-        or more full sentences.
+Author: Graham Burgess
+Maintainer: Graham Burgess <g.burgess1@lancaster.ac.uk>
+Description: Finds the convex hull of a set of points in the 2 dimensional plane using an RCpp implementation of the Jarvis March algorithm. 
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.10)
 LinkingTo: Rcpp
