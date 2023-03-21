@@ -1,6 +1,6 @@
 # convexhull
 
-Package which contains a C++ implementation of the Jarvis March algorithm for finding the convex hull of a set of points on a two-dimensional plane. Supplementary notebooks and functions are also included.
+Package which contains an Rcpp implementation of the Jarvis March algorithm for finding the convex hull of a set of points on a two-dimensional plane. Supplementary notebooks and functions are also included.
 
 **Installation**: install from R using the following command.   
 
