@@ -18,18 +18,20 @@ In order for this command to work, you also need to load the devtools package (a
 
 For a complete example of using this package, see the "...RPackage_Examples..." notebook in the notebooks subfolder of this repository. 
 
-**Repository navigation** (three subfolders of interest: "src", "R", "notebooks")
+**Repository navigation** (four subfolders of interest: "src", "R", "notebooks", "data")
 
-*rcppassignment/src*: this contains the jarvis_march-Rcpp.cpp file which contains the jarvis_march() function
+*convexhull/src*: this contains the jarvis_march-Rcpp.cpp file which contains the jarvis_march() function
 
-*rcppassignment/R*: this contains supplementary R functions including plot_hull() and in_hull() - see "RPackage_Examples" notebook for more details
+*convexhull/R*: this contains supplementary R functions including plot_hull() and in_hull() - see "RPackage_Examples" notebook for more details
 
-*rcppassignment/notebooks*: this contains the following notebooks: 
+*convexhull/notebooks*: this contains the following notebooks: 
 
 * *2023_GBurgess_Assignment_1_Python.ipynb*: this contains an alternative Python implementation of the code. 
 * *2023_GBurgess_Assignment_1_CPlusPlus.ipynb*: this contains a notebook version of the C++ implementation of the code. 
 * *2023_GBurgess_Assignment_RCpp_Task3.ipynb*: this contains an analysis of each implementation, including the pseudo code. 
 * *2023_GBurgess_RPackage_Examples.ipynb*: this contains example usage of the convexhull package from an R kernel. 
+
+*convexhull/data*: this contains example data which can be loaded to experiment with using the package. Examples of using this data can be found in the "2023_GBurgess_Assignment_1_Python.ipynb" notebook. 
 
 **Pseudo code for Jarvis March**
 
